@@ -1,0 +1,49 @@
+.contenedor-perfil {
+  width: 100%;
+  max-width: 1170px;
+  height: 368px;
+  margin: 10px auto 50px; /* Auto para centrar horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  box-sizing: border-box; /* Incluir padding en el ancho y alto */
+}
+
+.imagen-perfil{
+  height: 370px;
+  width: auto;
+}
+
+.contenedor-texto-perfil{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.cargo-perfil{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.reseña-perfil{
+  font-size: 1rem;
+  text-align: left;
+}
+ button {
+  background-color: #FF4A4A;
+  flex-direction: column;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
